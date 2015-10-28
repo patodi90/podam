@@ -1,6 +1,11 @@
 #general:
 # build_dir: /home/ubuntu/podam/
 
+## Set the artifacts
+general:
+  artifacts:
+    - "./tests/screenshots" #Save the screenshots for the tests
+    
 test:
   post:
     - mkdir -p $CIRCLE_TEST_REPORTS/junit/
