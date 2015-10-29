@@ -360,6 +360,7 @@
               <report>failsafe-report-only</report>
             </reports>
         </reportSet>
+        </reportSets>
 			</plugin>
 			<plugin>
 				<groupId>org.jacoco</groupId>
