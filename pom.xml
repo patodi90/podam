@@ -314,7 +314,7 @@
 		</plugins>
 	</build>
 	<reporting>
-		<outputDirectory>${basedir}/target/surefire</outputDirectory>
+		<outputDirectory>${basedir}/target/site</outputDirectory>
 		<plugins>
 			<plugin>
 				<artifactId>maven-project-info-reports-plugin</artifactId>
